@@ -81,6 +81,27 @@ public class Main {
 
         }
         System.out.println(nadp);
+        //Задание 7
+        int one=1;
+        int two=6;
+        int three=4;
+        if(one>two&&one>three){
+            System.out.println("Первое число наибольшее");
+        }
+        else
+        {
+            if(two>three)
+            {
+                System.out.println("Второе число наибольшее");
+            }
+            else
+            {
+                System.out.println("Третье число наибольшее");
+            }
+        }
+
+
+
 
 
     }

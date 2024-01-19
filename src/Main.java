@@ -50,6 +50,19 @@ public class Main {
             nadp2="на работу";
         }
         System.out.println(nadp1+nadp2);
+        //Задание 5
+        age=15;
+        String nadp="";
+        if (age<5){
+            nadp="не может кататься на атракционе.";
+        }
+        if(age>=5&&age<=14){
+            nadp="может кататься в сопровождении взрослого.";
+        }
+        if(age>14){
+            nadp="может кататься без сопровождения взрослого.";
+        }
+        System.out.println("Если возраст ребенка "+age+" и он "+nadp);
 
     }
 }

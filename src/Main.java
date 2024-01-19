@@ -64,5 +64,24 @@ public class Main {
         }
         System.out.println("Если возраст ребенка "+age+" и он "+nadp);
 
+        //Задание 6
+        byte vmest=102;
+        byte sid=60;
+        byte pas=101;
+        nadp="";
+
+        if(pas<sid){
+            nadp="В вагоне "+(sid-pas)+" сидячих мест и "+(vmest-sid)+" стоячих мест.";
+        }else{
+            if(pas>=sid&&pas<vmest){
+                nadp="В вагоне нет сидячих мест. Остались стоячие места в количестве: "+(vmest-pas);
+            }else{
+                nadp="Вагон полностью заполнен.";
+            }
+
+        }
+        System.out.println(nadp);
+
+
     }
 }

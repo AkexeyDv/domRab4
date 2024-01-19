@@ -22,6 +22,16 @@ public class Main {
         {
             System.out.println("Тепло, можно идти без шапки");
         }
+        //Задание 3
+        byte speed=61;
+        if (speed<=60)
+        {
+            System.out.println("Скорость " + speed + " км/ч. Можно ехать спокойно.");
+        }
+        else
+        {
+            System.out.println("Скорость " + speed + " км/ч. Придется заплатить штраф.");
+        }
 
     }
 }
